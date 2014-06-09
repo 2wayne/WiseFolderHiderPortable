@@ -1,1 +1,26 @@
 Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\services\WiseFS]
+"Type"=dword:00000002
+"ErrorControl"=dword:00000000
+"Start"=dword:00000002
+"ImagePath"=hex(2):5c,00,3f,00,3f,00,5c,00,44,00,3a,00,5c,00,42,00,6c,00,65,00,\
+  6e,00,64,00,65,00,72,00,5c,00,57,00,69,00,73,00,65,00,20,00,46,00,6f,00,6c,\
+  00,64,00,65,00,72,00,20,00,48,00,69,00,64,00,65,00,72,00,5c,00,57,00,69,00,\
+  73,00,65,00,46,00,73,00,36,00,34,00,2e,00,73,00,79,00,73,00,00,00
+"DisplayName"="WiseFS"
+"Description"="Wise File Filter Driver"
+"Group"="FSFilter Activity Monitor"
+"DependOnService"=hex(2):46,00,6c,00,74,00,4d,00,67,00,72,00,00,00
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\services\WiseFS\Enum]
+"0"="Root\\LEGACY_WISEFS\\0000"
+"Count"=dword:00000001
+"NextInstance"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\services\WiseFS\Instances]
+"DefaultInstance"="WiseFS Instance"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\services\WiseFS\Instances\WiseFS Instance]
+"Altitude"="370051"
+"Flags"=dword:00000000
